@@ -1,52 +1,112 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>Rutgers PBL | Dining with the Distinguished</title>
-	<link rel="icon" type="image/png" href="img/icon.png">
-	<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Rutgers Phi Beta Lambda</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 </head>
 
 <body>
-	<header id="header">
-		<div id="header__container">
-			<hgroup id="header__container__titles">
-				<h1>Dining with the Distinguished</h1>
-				<h2>Rutgers Phi Beta Lambda</h2>
-			</hgroup>
-			<section id="header__social">
-				<a class="header__social__link" href="https://www.facebook.com/pblrutgers" title="Offical Facebook Page">
-					Facebook
-				</a>
-			</section>
-		</div>
-	</header>
 
-	<!-- About Section -->
-	<section id="about">
-		<h4>4th annual Dining with the Distinguished Event.</h4>
-		<div class="container">
-			<p>Network and enjoy a dinner with industry leaders.</p>
-		</div>
-	</section>
+  <header id="header">
+    <div id="header__container">
+      <hgroup id="header__container__titles">
+        <h1>Dining with the Distinguished</h1>
+        <h2>Rutgers Phi Beta Lambda</h2>
+      </hgroup>
+      <section id="header__social">
+        <a class="header__social__link" href="https://www.facebook.com" title="Official Facebook Page">
+          facebook
+        </a>
+      </section>
+    </div>
+    <a class="more" id="header__more" title="Learn more">↓</a>
+  </header>
+  <!--About Section: description, location and time -->
+  <section id="about">
+    <h4>Dining with the Distinguished</h4>
+    <div class="container">
+      <p>This is a night of banquet style food and networking between ambitious students and business professionals, taking place on Friday, December 5th at Rutgers around 6:00pm. Any student can attend and they will be interested in career advice as well as the opportunity to network with someone as distinguished as yourself. Last year, we had 120 students and 17 professionals in attendance.
+      </p>
+      <p>Where: Rutgers Livingston </p>
+      <p>When: December 5, 2014 6PM </p>
+      </div>
+      </section>
 
-	<!-- Location and Timing Section -->
-	<section id="location_and_timing">
-		<h3>Where: Rutgers Livingston Student Center </h3>
-		<h3>When: December 5th 2014 6:00 PM - 9:00 PM </h3>
-	</section>
+      <section id="portfolio">
+        <h3>Pictures From the Past</h3>
+        <div class="container">
 
-	<!-- Footer Section -->
-	<footer id="footer">
-		<p id="footer__contact">Come join us! and 
-			<a href="https://www.facebook.com/pblrutgers">Like our page to keep updated on more events!</a></p>
-		<p id="footer__copyright"> - </p>
-	</footer>
+          <a class="portfolio__shot" href="facebook.com">
+            <img src="img/portfolio/pic1.jpg" alt="Stock">
+            <span>
+              <p>The Event.</p>
+            </span>
+          </a>
 
-</body>
-<script src="js/jquery.min.js"></script>
-<script src="js/script.min.js"></script>
+          <a class="portfolio__shot" href="facebook.com">
+            <img src="img/portfolio/pic2.jpg" alt="Stock">
+            <span>
+              <p>Past Attendees</p>
+            </span>
+          </a>
+
+          <a class="portfolio__shot" href="http://facebook.com/">
+            <img src="img/portfolio/pic3.jpg" alt="Stock">
+            <span>
+              <p>Students can easily network with the professionals.</p>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section id="companies">
+          <h3>Companies That will be Attending</h3>
+          <div class="container">
+
+          <a class="portfolio__shot" href="http://cssu.cdf.toronto.edu/">
+            <img src="img/portfolio/pic1.jpg" alt="Stock">
+            <span>
+              <p>The Event.</p>
+              <p>Rebranding + web design/dev</p>
+            </span>
+          </a>
+
+          <a class="portfolio__shot" href="http://cssu.cdf.toronto.edu/">
+            <img src="img/portfolio/pic1.jpg" alt="Stock">
+            <span>
+              <p>The Event.</p>
+              <p>Rebranding + web design/dev</p>
+            </span>
+          </a>
+
+          <a class="portfolio__shot" href="http://cssu.cdf.toronto.edu/">
+            <img src="img/portfolio/pic1.jpg" alt="Stock">
+            <span>
+              <p>The Event.</p>
+              <p>Rebranding + web design/dev</p>
+            </span>
+          </a>
+
+        </div>
+      </section>
+
+      <footer id="footer">
+        <a class="more" id="footer__top" title="Back to top">↑</a>
+        <p id="footer__contact">Attend the Event and Like our  <a href="https://www.facebook.com">Facebook Event Page</a>.</p>
+        <p id="footer__copyright">Made by the Rutgers Phi Beta Lambda Webmaster Committee</p>
+      </footer>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/script.min.js"></script>
+  </body>
 </html>
