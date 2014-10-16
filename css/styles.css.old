@@ -4,6 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif:700);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
 
 * {
 	box-sizing: border-box;
@@ -28,7 +29,7 @@ h4 {
 
 h1 {
 	font-size: 3.5em; 
-	font-family: "Droid Serif", serif;
+	font-family: "Dancing Script", serif;
 	color: #E3493B; 
 	padding: 1.7em .5em .65em;
 	text-transform: uppercase;
