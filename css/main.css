@@ -25,8 +25,10 @@ h4 {
 }
 
 h1 {
-  font: 10.5em "Miss Fajardose", sans-serif;
-  padding: 1.65em .4em .75em;
+  font: 10.5vw "Miss Fajardose", sans-serif;
+  padding: 1.65em .1em .75em;
+  white-space: nowrap;
+  overflow: hidden;
 /*  text-transform: uppercase; */
 }
 
