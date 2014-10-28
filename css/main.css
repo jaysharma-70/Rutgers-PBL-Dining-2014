@@ -25,19 +25,19 @@ h4 {
 }
 
 h1 {
-  font: 10.5vw "Miss Fajardose", sans-serif;
-  padding: 1.65em .1em .75em;
+  font: 12.5vw "Miss Fajardose", sans-serif;
+  padding: 15% 1% 10%;
   white-space: nowrap;
   overflow: hidden;
 /*  text-transform: uppercase; */
 }
 
 h2 {
-  font-size: 2.1em;
+  font-size: 2vw;
   font-weight: 400;
   font-family: 'Droid Serif', serif;
   font-variant: small-caps;
-  padding-bottom: 1.5em;
+  padding-bottom: 1%;
 }
 
 h3 {
